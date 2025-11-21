@@ -1,42 +1,64 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tourist Places Showcase</title>
+    <title>Explore India – Tourist Destinations</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Discover Beautiful Tourist Places</h1>
+        <h1>Explore India</h1>
+        <p class="subtitle">Discover the most beautiful destinations across the country</p>
     </header>
 
-    <section class="container">
+    <section class="tour-container">
 
-        <div class="card">
-            <img src="https://tse2.mm.bing.net/th/id/OIP.6ZK3iDNadxMntj9-rUQWjQHaEv?pid=Api&P=0&h=180" alt="Kaziranga">
-            <h2>Kaziranga National Park</h2>
-            <p>Home to the world-famous one-horned rhinoceros and vibrant wildlife.</p>
+        <div class="place-card" onclick="showInfo('The Taj Mahal is located in Agra and is one of the Seven Wonders of the World.')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg">
+            <h2>Taj Mahal</h2>
+            <p class="short">Agra, Uttar Pradesh</p>
         </div>
 
-        <div class="card">
-            <img src="https://mountainecho.in/wp-content/uploads/2023/08/majuli-2.webp" alt="Majuli">
-            <h2>Majuli Island</h2>
-            <p>The world's largest river island with breathtaking natural & cultural beauty.</p>
+        <div class="place-card" onclick="showInfo('Amer Fort in Jaipur is known for its artistic Rajput architecture.')">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.Z_ByE1kiVHgMJxZwjuaw0AHaES?pid=Api&P=0&h=180">
+            <h2>Amer Fort</h2>
+            <p class="short">Jaipur, Rajasthan</p>
         </div>
 
-        <div class="card">
-            <img src="https://tse1.mm.bing.net/th/id/OIP.a0vOC4R8smLbBsVnDeB3gAHaE8?pid=Api&P=0&h=180" alt="Kamakhya Temple">
-            <h2>Kamakhya Temple</h2>
-            <p>A major pilgrimage site located atop Nilachal Hill in Guwahati.</p>
+        <div class="place-card" onclick="showInfo('Goa is famous for its beaches, nightlife, and unique culture.')">
+            <img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2021/08/BlogImage-16Aug_SouthGoa_Image-12-1.jpg">
+            <h2>Goa Beach</h2>
+            <p class="short">Goa</p>
+        </div>
+
+        <div class="place-card" onclick="showInfo('The Gateway of India is a historic monument located in Mumbai.')">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.m3UCiybiuZ_pJ-igAbZoegHaHA?rs=1&pid=ImgDetMain&o=7&rm=3">
+            <h2>Gateway of India</h2>
+            <p class="short">Mumbai, Maharashtra</p>
+        </div>
+
+        <div class="place-card" onclick="showInfo('Darjeeling is known for its beautiful hills, tea gardens, and toy train.')">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.srumT7keHGBVp3K2Fmgn4gHaEn?rs=1&pid=ImgDetMain&o=7&rm=3">
+            <h2>Darjeeling</h2>
+            <p class="short">West Bengal</p>
+        </div>
+
+        <div class="place-card" onclick="showInfo('Kerala Backwaters offer houseboats, scenic water routes, and rich nature.')">
+            <img src="https://fthmb.tqn.com/2UBBUeur6xvKqy3bxZSrdx0rchE=/960x0/filters:no_upscale()/GettyImages-640355133-5947dd743df78c537b39a909.jpg">
+            <h2>Kerala Backwaters</h2>
+            <p class="short">Kerala</p>
         </div>
 
     </section>
 
     <footer>
-        <p>Created by Deepayan Ghosh | GitHub Pages Practical</p>
+        <p>© 2025 Explore India</p>
     </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
+
+
